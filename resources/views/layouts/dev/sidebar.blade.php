@@ -34,7 +34,7 @@
 					<li class="nav-item"><a class="nav-link" href="">Daerah (Kab/Kota)</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Kecamatan</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Kelurahan</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Master Airport</a></li>
+					<li class="nav-item"><a class="nav-link" href="{{route('airport.index')}}">Master Airport</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Master Airlines</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Master Airlines Pricing</a></li>
 					<li class="nav-item"><a class="nav-link" href="">Customer</a></li>

@@ -58,6 +58,7 @@
   <!-- Custom js for this page-->
   <script src="/js/dashboard.js"></script>
   <!-- End custom js for this page-->
+  <script src="/js/data-table.js"></script>
 </body>
 
 </html>
