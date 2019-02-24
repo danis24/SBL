@@ -2,7 +2,7 @@
 	<div class="nav-top flex-grow-1">
 		<div class="container d-flex flex-row h-100 align-items-center">
 			<div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-				<a class="navbar-brand brand-logo" href="#"><img src="/images/logo.png" alt="logo" /> <strong>SBL
+				<a class="navbar-brand brand-logo" href="/home"><img src="/images/logo.png" alt="logo" /> <strong>SBL
 						System</strong></a>
 				<a class="navbar-brand brand-logo-mini" href="#"><img src="/images/logo.png" alt="logo" /></a>
 			</div>

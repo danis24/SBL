@@ -13,6 +13,11 @@ class RoleTableSeeder extends Seeder
      */
     public function run()
     {
+        $role_dev = factory(Role::class)->create([
+            'name' => 'dev',
+            'guard_name' => 'web',
+        ]);
+
         $role_admin = factory(Role::class)->create([
             'name' => 'admin',
             'guard_name' => 'web',
@@ -28,6 +33,15 @@ class RoleTableSeeder extends Seeder
             'guard_name' => 'web',
         ]);
 
+        $userDev = factory(\App\User::class)->create([
+            'name' => 'Developer',
+            'email' => 'dev@admin.com',
+            'email_verified_at' => now(),
+            'password' => bcrypt('secret'),
+            'remember_token' => str_random(10),
+        ]);
+
+        $userDev->assignRole($role_dev->name);
 
         $userAdmin = factory(\App\User::class)->create([
             'name' => 'Admin',
