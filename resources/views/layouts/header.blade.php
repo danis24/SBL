@@ -79,7 +79,10 @@
 								Settings
 							</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item">
+							<form id="logout-form" action="{{ url('logout') }}" method="POST" style="display: none;">
+							{{ csrf_field() }}
+							</form>
+							<a href="" onclick="event.preventDefault();document.getElementById('logout-form').submit();" class="dropdown-item">
 								<i class="mdi mdi-logout text-primary"></i>
 								Logout
 							</a>
