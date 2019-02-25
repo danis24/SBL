@@ -8,6 +8,11 @@
 			</div>
 			<div class="navbar-menu-wrapper d-flex align-items-center justify-content-end flex-grow-1">
 				<ul class="navbar-nav navbar-nav-right">
+					<li class="nav-item">
+						<a class="nav-link count-indicator" href="#">
+							<label class="badge badge-primary"><i class="mdi mdi-coin mx-0"></i> Rp. 100.000,00-</label>
+						</a>
+					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
 							data-toggle="dropdown">
