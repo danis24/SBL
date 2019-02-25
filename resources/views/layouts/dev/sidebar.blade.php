@@ -131,5 +131,13 @@
 				</ul>
 			</div>
 		</li>
+
+		<li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="mdi mdi-comment-account-outline menu-icon"></i>
+              <span class="menu-title">Pengguna</span>
+            </a>
+        </li>
+
 	</ul>
 </nav>
